@@ -2,7 +2,7 @@ import "./src/config/env.js";
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import connectDB from "./src/db/db.js";
+import prisma, { connectDB } from "./src/db/db.js";
 
 const app = express();
 

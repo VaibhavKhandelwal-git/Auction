@@ -134,5 +134,11 @@ coverage/
 *.sqlite
 *.sqlite3
 
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
 /generated/prisma
